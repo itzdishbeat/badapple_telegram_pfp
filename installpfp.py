@@ -55,7 +55,7 @@ with TelegramClient('session_name', api_id, api_hash) as client:
                 print(f"Failed to upload frame {i}")
             
             # Add a small delay between uploads to avoid hitting rate limits too frequently
-            time.sleep(5)
+            time.sleep(15)
         else:
             print(f"Frame {i} not found")
 
